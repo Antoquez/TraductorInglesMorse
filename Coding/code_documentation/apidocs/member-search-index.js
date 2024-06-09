@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"com.mycompany.translatorenglishmorse","c":"TranslatorEnglishMorse","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.mycompany.translatorenglishmorse","c":"TranslatorEnglishMorse","l":"TranslatorEnglishMorse()","u":"%3Cinit%3E()"}];updateSearchResults();
