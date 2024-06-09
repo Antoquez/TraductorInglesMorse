@@ -4,7 +4,7 @@
 
 package com.mycompany.translatorenglishmorse;
 
-import GUI.JFMorseCodeTranslator;
+import userInterface.JFMorseCodeTranslator;
 
 /**
  *

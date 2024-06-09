@@ -39,8 +39,8 @@ public class Export {
      * @param content El contenido a exportar.
      * @throws FileNotFoundException Si el archivo no puede ser creado o abierto.
      */
-    
-    private void exportAsTxt(File file, String content) throws FileNotFoundException {
+
+    public void exportAsTxt(File file, String content) throws FileNotFoundException {
         try (PrintWriter out = new PrintWriter(file)) {
             out.println(content);
         }
@@ -58,7 +58,7 @@ public class Export {
      * @param format El formato de la imagen (PNG).
      * @throws IOException Si ocurre un error durante la creación de la imagen.
      */
-    private void exportAsImage(File file, String content, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color, String format) throws IOException {
+    public void exportAsImage(File file, String content, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color, String format) throws IOException {
         BufferedImage bufferedImage = new BufferedImage(500, 500, BufferedImage.TYPE_INT_ARGB);
         Graphics2D g2d = bufferedImage.createGraphics();
         int fontStyle = Font.PLAIN;
