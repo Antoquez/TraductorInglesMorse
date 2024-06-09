@@ -4,7 +4,7 @@
 
 package com.mycompany.translatorenglishmorse;
 
-import GUI.JFTranslator;
+import GUI.JFMorseCodeTranslator;
 
 /**
  *
@@ -17,7 +17,7 @@ public class TranslatorEnglishMorse {
      * @param args los argumentos de la línea de comandos. Actualmente no se utilizan.
      */
     public static void main(String[] args) {
-        JFTranslator translator = new JFTranslator();
+        JFMorseCodeTranslator translator = new JFMorseCodeTranslator();
         translator.setVisible(true);
     }
 }
