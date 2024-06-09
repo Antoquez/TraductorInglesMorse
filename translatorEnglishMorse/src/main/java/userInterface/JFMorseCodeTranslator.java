@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package GUI;
+package userInterface;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -64,7 +64,6 @@ public class JFMorseCodeTranslator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Morse Translator by Group#3");
-        setPreferredSize(new java.awt.Dimension(800, 650));
 
         bExport.setText("Export");
         bExport.addActionListener(new java.awt.event.ActionListener() {

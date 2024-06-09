@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.mycompany.translatorenglishmorse","l":"TranslatorEnglishMorse"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"logic","l":"Export"},{"p":"GUI","l":"JFExport"},{"p":"GUI","l":"JFMorseCodeTranslator"},{"p":"logic","l":"MorseCodeTranslator"},{"p":"com.mycompany.translatorenglishmorse","l":"TranslatorEnglishMorse"}];updateSearchResults();
