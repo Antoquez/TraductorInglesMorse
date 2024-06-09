@@ -185,7 +185,7 @@ public class JFExport extends javax.swing.JFrame {
 
         try {
             Export exportService = new Export();
-            exportService.exportBraille(file, format, text, 14, false, false, black);
+            exportService.exportMorse(file, format, text, 14, false, false, black);
             JOptionPane.showMessageDialog(this, "Texto guardado correctamente como " + format);
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, "Error al guardar el archivo: " + ex.getMessage());

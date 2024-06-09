@@ -19,13 +19,13 @@ import javax.imageio.ImageIO;
  */
 public class Export {
 
-    public void exportBraille(File file, String format, String brailleText, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color) throws Exception {
+    public void exportMorse(File file, String format, String morseText, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color) throws Exception {
         switch (format.toUpperCase()) {
             case "TXT":
-                exportAsTxt(file, brailleText);
+                exportAsTxt(file, morseText);
                 break;
             case "PNG":
-                exportAsImage(file, brailleText, fontSize, isBold, isItalic, color, format);
+                exportAsImage(file, morseText, fontSize, isBold, isItalic, color, format);
                 break;
             default:
                 throw new IllegalArgumentException("Unsupported format: " + format);
