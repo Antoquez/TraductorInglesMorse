@@ -1,1 +1,4 @@
 com\mycompany\translatorenglishmorse\TranslatorEnglishMorse.class
+GUI\JFTranslator$1.class
+GUI\JFTranslator.class
+logic\Translator.class
