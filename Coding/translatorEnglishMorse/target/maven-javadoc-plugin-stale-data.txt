@@ -1,0 +1,55 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/MARQUEZ/.m2/repository/com/itextpdf/kernel/7.1.13/kernel-7.1.13.jar;C:/Users/MARQUEZ/.m2/repository/com/itextpdf/io/7.1.13/io-7.1.13.jar;C:/Users/MARQUEZ/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar;C:/Users/MARQUEZ/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar;C:/Users/MARQUEZ/.m2/repository/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar;C:/Users/MARQUEZ/.m2/repository/com/itextpdf/layout/7.1.13/layout-7.1.13.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java;F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/../code_documentation/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'translatorEnglishMorse 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'translatorEnglishMorse 1.0-SNAPSHOT API'
+com.mycompany.translatorenglishmorse
+'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/com/mycompany/translatorenglishmorse/TranslatorEnglishMorse.java'
+C:\Users\MARQUEZ\.m2\repository\com\itextpdf\kernel\7.1.13\kernel-7.1.13.jar = 1717504406896
+C:\Users\MARQUEZ\.m2\repository\com\itextpdf\io\7.1.13\io-7.1.13.jar = 1717504407832
+C:\Users\MARQUEZ\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar = 1717504407082
+C:\Users\MARQUEZ\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar = 1717504408441
+C:\Users\MARQUEZ\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar = 1717504407213
+C:\Users\MARQUEZ\.m2\repository\com\itextpdf\layout\7.1.13\layout-7.1.13.jar = 1717504407449
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\src\main\java = 1717907620889
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\target\generated-sources\annotations = 1717908801960
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allclasses-index.html = 1717908811824
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allpackages-index.html = 1717908811831
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\copy.svg = 1717908811921
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\element-list = 1717908811730
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\help-doc.html = 1717908811907
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index-all.html = 1717908811866
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index.html = 1717908811879
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\member-search-index.js = 1717908811842
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\module-search-index.js = 1717908811833
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\overview-tree.html = 1717908811799
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\package-search-index.js = 1717908811836
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\script.js = 1717908811918
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search-page.js = 1717908811931
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.html = 1717908811873
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.js = 1717908811928
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\stylesheet.css = 1717908811915
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\tag-search-index.js = 1717908811844
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\type-search-index.js = 1717908811838
