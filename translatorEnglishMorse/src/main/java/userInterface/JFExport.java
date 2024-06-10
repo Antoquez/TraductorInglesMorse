@@ -12,8 +12,11 @@ import javax.swing.JOptionPane;
 import logic.Export;
 
 /**
- *
- * @author MARQUEZ
+ * This class provides a graphical interface for exporting Morse code translations to files
+ * in different formats. It allows the user to specify the file name, format, and save location.
+ * 
+ * @version 1.0
+ * @author My Company
  */
 public class JFExport extends javax.swing.JFrame {
 
@@ -28,6 +31,11 @@ public class JFExport extends javax.swing.JFrame {
         initComponents();
     }
 
+    /**
+     * Creates a new instance of JFExport with the specified text to export.
+     * 
+     * @param text The text to be exported.
+     */
     JFExport(String text) {
         this.selectedColor = Color.BLACK;
         this.text = text;

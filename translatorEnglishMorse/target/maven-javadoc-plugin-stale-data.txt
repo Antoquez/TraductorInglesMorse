@@ -26,38 +26,39 @@
 -windowtitle
 'translatorEnglishMorse 1.0-SNAPSHOT API'
 com.mycompany.translatorenglishmorse
-GUI
 logic
+userInterface
 'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/com/mycompany/translatorenglishmorse/TranslatorEnglishMorse.java'
-'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/GUI/JFExport.java'
-'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/GUI/JFMorseCodeTranslator.java'
 'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/logic/Export.java'
 'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/logic/MorseCodeTranslator.java'
+'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/userInterface/JFExport.java'
+'F:/EPN/SEXTO SEMESTRE/Metodologias agiles/Grupo3/XP/Coding/translatorEnglishMorse/src/main/java/userInterface/JFMorseCodeTranslator.java'
 C:\Users\MARQUEZ\.m2\repository\com\itextpdf\kernel\7.1.13\kernel-7.1.13.jar = 1717504406896
 C:\Users\MARQUEZ\.m2\repository\com\itextpdf\io\7.1.13\io-7.1.13.jar = 1717504407832
 C:\Users\MARQUEZ\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar = 1717504407082
 C:\Users\MARQUEZ\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar = 1717504408441
 C:\Users\MARQUEZ\.m2\repository\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar = 1717504407213
 C:\Users\MARQUEZ\.m2\repository\com\itextpdf\layout\7.1.13\layout-7.1.13.jar = 1717504407449
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\src\main\java = 1717911414348
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\target\generated-sources\annotations = 1717947374390
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allclasses-index.html = 1717947398170
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allpackages-index.html = 1717947398175
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\copy.svg = 1717947398270
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\element-list = 1717947397836
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\help-doc.html = 1717947398258
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index-all.html = 1717947398238
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index.html = 1717947398151
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\member-search-index.js = 1717947398191
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\module-search-index.js = 1717947398180
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\overview-summary.html = 1717947398250
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\overview-tree.html = 1717947398141
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\package-search-index.js = 1717947398183
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\script.js = 1717947398268
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search-page.js = 1717947398283
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.html = 1717947398245
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.js = 1717947398279
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\serialized-form.html = 1717947398057
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\stylesheet.css = 1717947398264
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\tag-search-index.js = 1717947398193
-F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\type-search-index.js = 1717947398185
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\src\main\java = 1717947861437
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\translatorEnglishMorse\target\generated-sources\annotations = 1717982335825
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allclasses-index.html = 1717982355072
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\allpackages-index.html = 1717982355079
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\copy.svg = 1717982355162
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\element-list = 1717982354697
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\help-doc.html = 1717982355148
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index-all.html = 1717982355127
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\index.html = 1717982355038
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\javadoc.bat = 1717982193524
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\member-search-index.js = 1717982355102
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\module-search-index.js = 1717982355087
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\overview-summary.html = 1717982355140
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\overview-tree.html = 1717982355031
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\package-search-index.js = 1717982355090
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\script.js = 1717982355158
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search-page.js = 1717982355213
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.html = 1717982355135
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\search.js = 1717982355169
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\serialized-form.html = 1717982354946
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\stylesheet.css = 1717982355154
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\tag-search-index.js = 1717982355106
+F:\EPN\SEXTO SEMESTRE\Metodologias agiles\Grupo3\XP\Coding\code_documentation\apidocs\type-search-index.js = 1717982355094

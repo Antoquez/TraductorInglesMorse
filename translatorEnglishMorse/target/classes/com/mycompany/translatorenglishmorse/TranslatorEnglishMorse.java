@@ -1,20 +1,23 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-
 package com.mycompany.translatorenglishmorse;
 
 import userInterface.JFMorseCodeTranslator;
 
 /**
+ * This class is used to execute principal interface
  *
- * @author MARQUEZ
+ * @version 1.0
+ * @author My Company
  */
 public class TranslatorEnglishMorse {
-/**
-     * El método principal que sirve como punto de entrada a la aplicación.
-     * 
-     * @param args los argumentos de la línea de comandos. Actualmente no se utilizan.
+
+    /**
+     *
+     * The main method serves as the entry point to the application.
+     *
+     * @param args the command-line arguments. Currently not used.
      */
     public static void main(String[] args) {
         JFMorseCodeTranslator translator = new JFMorseCodeTranslator();

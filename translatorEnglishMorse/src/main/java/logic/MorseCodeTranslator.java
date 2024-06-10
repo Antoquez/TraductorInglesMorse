@@ -10,8 +10,13 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
+ * This class provides methods to translate English words to Morse code and vice
+ * versa. It uses two HashMaps to store the translation libraries for both
+ * directions.
  *
- * @author MARQUEZ
+ * @version 1.0
+ * @since 1.0
+ * @author my company
  */
 public class MorseCodeTranslator {
 
@@ -73,14 +78,17 @@ public class MorseCodeTranslator {
         }
     }
 
+    /**
+     * Converts an English word to its Morse code representation.
+     *
+     * @param englishWord the English word to be translated to Morse code
+     * @return a String representing the Morse code of the input English word
+     */
     public String englishWordToMorseWord(String englishWord) {
         StringBuffer buffer = new StringBuffer();
         Stream.of(englishWord.split("[ \n]"))
                 .forEach(s -> {
-//                    System.out.println("s = " + s);
                     for (char c : s.toCharArray()) {
-//                        String v = englishToMorseLib.containsKey(String.valueOf(c).toUpperCase()) ? englishToMorseLib.get(String.valueOf(c).toUpperCase()) : " [error] ";
-//                        System.out.println(c + "  == " + v);
                         buffer.append(englishToMorseLib.containsKey(String.valueOf(c).toUpperCase()) ? englishToMorseLib.get(String.valueOf(c).toUpperCase()) + " " : "?? ");
                     }
                     buffer.append(" / ");
@@ -88,17 +96,20 @@ public class MorseCodeTranslator {
         return buffer.toString();
     }
 
+    /**
+     * Converts a Morse code word to its English representation.
+     * 
+     * @param morseWord the Morse code word to be translated to English
+     * @return a String representing the English word of the input Morse code
+     */
     public String morseWordToEnglishWord(String morseWord) {
         StringBuffer buffer = new StringBuffer();
         Stream.of(morseWord.split("[\\s\\n]"))
                 .filter((s) -> s != null && !s.isEmpty())
                 .forEach(s -> {
-//                        System.out.println("s == " + s);
                     if (s.equalsIgnoreCase("/") || s.equalsIgnoreCase("|")) {
                         buffer.append(" ");
                     } else {
-//                            String v = morseToEnglishLib.containsKey(s) ? morseToEnglishLib.get(s) : "?? ";
-//                            System.out.println(s + " === " + v);
                         buffer.append((morseToEnglishLib.containsKey(s) ? morseToEnglishLib.get(s) : "?? ").toLowerCase());
                     }
                 });

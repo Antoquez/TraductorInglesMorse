@@ -14,11 +14,26 @@ import java.io.PrintWriter;
 import javax.imageio.ImageIO;
 
 /**
- *
- * @author MARQUEZ
+ * This class provides methods to export Morse code as a text file or an image file.
+ * 
+ * @version 1.0
+ * @since 1.0
+ * @author my company
  */
 public class Export {
 
+    /**
+     * Exports Morse code content to the specified file format.
+     * 
+     * @param file The destination file.
+     * @param format The format to export the content ("TXT" or "PNG").
+     * @param morseText The Morse code content to be exported.
+     * @param fontSize The font size for the image export.
+     * @param isBold Indicates if the text should be bold.
+     * @param isItalic Indicates if the text should be italic.
+     * @param color The color of the text in the image.
+     * @throws Exception If an error occurs during export.
+     */
     public void exportMorse(File file, String format, String morseText, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color) throws Exception {
         switch (format.toUpperCase()) {
             case "TXT":
@@ -33,13 +48,12 @@ public class Export {
     }
     
     /**
-     * Exporta el contenido como archivo de texto.
-     *
-     * @param file El archivo de destino.
-     * @param content El contenido a exportar.
-     * @throws FileNotFoundException Si el archivo no puede ser creado o abierto.
+     * Exports the content as a text file.
+     * 
+     * @param file The destination file.
+     * @param content The content to be exported.
+     * @throws FileNotFoundException If the file cannot be created or opened.
      */
-
     public void exportAsTxt(File file, String content) throws FileNotFoundException {
         try (PrintWriter out = new PrintWriter(file)) {
             out.println(content);
@@ -47,16 +61,16 @@ public class Export {
     }
 
     /**
-     * Exporta el contenido como una imagen.
-     *
-     * @param file El archivo de destino.
-     * @param content El contenido a exportar.
-     * @param fontSize El tamaño de la fuente.
-     * @param isBold Indica si el texto debe estar en negrita.
-     * @param isItalic Indica si el texto debe estar en cursiva.
-     * @param color El color del texto.
-     * @param format El formato de la imagen (PNG).
-     * @throws IOException Si ocurre un error durante la creación de la imagen.
+     * Exports the content as an image file.
+     * 
+     * @param file The destination file.
+     * @param content The content to be exported.
+     * @param fontSize The font size for the text in the image.
+     * @param isBold Indicates if the text should be bold.
+     * @param isItalic Indicates if the text should be italic.
+     * @param color The color of the text.
+     * @param format The image format ("PNG").
+     * @throws IOException If an error occurs during image creation.
      */
     public void exportAsImage(File file, String content, int fontSize, boolean isBold, boolean isItalic, java.awt.Color color, String format) throws IOException {
         BufferedImage bufferedImage = new BufferedImage(500, 500, BufferedImage.TYPE_INT_ARGB);

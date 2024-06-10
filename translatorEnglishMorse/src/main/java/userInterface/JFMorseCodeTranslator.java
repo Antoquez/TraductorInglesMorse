@@ -19,8 +19,12 @@ import java.util.logging.Logger;
 import logic.MorseCodeTranslator;
 
 /**
- *
- * @author MARQUEZ
+ * The JFMorseCodeTranslator class provides a graphical user interface for translating
+ * text between English and Morse code. It supports exporting translations to text files
+ * and printing the Morse code translations.
+ * 
+ * @version 1.0
+ * @author My Company
  */
 public class JFMorseCodeTranslator extends javax.swing.JFrame {
 
@@ -342,6 +346,12 @@ public class JFMorseCodeTranslator extends javax.swing.JFrame {
                 + "Press space bar for auto translation</html>");
     }
 
+    /**
+     * Prints the given content as text.
+     * 
+     * @param content The content to be printed.
+     * @throws PrinterException If a printer-related error occurs.
+     */
     public void printText(String content) throws PrinterException {
         PrinterJob job = PrinterJob.getPrinterJob();
         job.setPrintable((Graphics graphics, PageFormat pageFormat, int pageIndex) -> {
