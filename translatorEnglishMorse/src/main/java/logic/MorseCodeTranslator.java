@@ -78,41 +78,33 @@ public class MorseCodeTranslator {
         }
     }
 
-    /**
-     * Converts an English word to its Morse code representation.
-     *
-     * @param englishWord the English word to be translated to Morse code
-     * @return a String representing the Morse code of the input English word
-     */
-    public String englishWordToMorseWord(String englishWord) {
-        StringBuffer buffer = new StringBuffer();
-        Stream.of(englishWord.split("[ \n]"))
-                .forEach(s -> {
-                    for (char c : s.toCharArray()) {
-                        buffer.append(englishToMorseLib.containsKey(String.valueOf(c).toUpperCase()) ? englishToMorseLib.get(String.valueOf(c).toUpperCase()) + " " : "?? ");
-                    }
-                    buffer.append(" / ");
+    public String englishToMorse(String englishPhrase) {
+        StringBuilder buffer = new StringBuilder();
+        Arrays.stream(englishPhrase.split("[ \n]"))
+                .forEach(word -> {
+                    word.chars()
+                            .mapToObj(c -> (char) c)
+                            .forEach(c -> buffer.append(
+                                    englishToMorseLib.getOrDefault(String.valueOf(c).toUpperCase(), "??"))
+                                    .append(" "));
+                    buffer.append("/ ");
                 });
-        return buffer.toString();
+        return buffer.toString().trim();
     }
 
-    /**
-     * Converts a Morse code word to its English representation.
-     * 
-     * @param morseWord the Morse code word to be translated to English
-     * @return a String representing the English word of the input Morse code
-     */
-    public String morseWordToEnglishWord(String morseWord) {
-        StringBuffer buffer = new StringBuffer();
-        Stream.of(morseWord.split("[\\s\\n]"))
+    public String morseToEnglish(String morsePhrase) {
+        StringBuilder buffer = new StringBuilder();
+        Arrays.stream(morsePhrase.split("[\\s\\n]"))
                 .filter((s) -> s != null && !s.isEmpty())
-                .forEach(s -> {
-                    if (s.equalsIgnoreCase("/") || s.equalsIgnoreCase("|")) {
+                .forEach(code -> {
+                    if ("/".equals(code) || "|".equals(code)) {
                         buffer.append(" ");
                     } else {
-                        buffer.append((morseToEnglishLib.containsKey(s) ? morseToEnglishLib.get(s) : "?? ").toLowerCase());
+                        buffer.append((morseToEnglishLib.getOrDefault(code, "??")));
                     }
                 });
-        return buffer.toString();
+        return buffer.toString().toLowerCase();
     }
 }
+   
+
